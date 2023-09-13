@@ -4,7 +4,6 @@ def square(number):
     :param number: int or float
     :return: int or float, the square of the input number
     """
-    # Implement your solution here
 def square(number):
         square_number=number*number
         return square_number
@@ -19,7 +18,6 @@ def reverse_string(s):
     :param s: str
     :return: str, the reversed string
     """
-      # Implement your solution here
 def reverse_string(s):
   return s[::-1]
 string = input("Enter a string:")
@@ -83,7 +81,6 @@ def is_palindrome(s):
     :param s: str
     :return: bool, `True` if the string is a palindrome, `False` otherwise.
     """
-    pass  # Implement your solution here
 def is_palindrome(s):
     return s == s[::-1]
 print(is_palindrome("racecar")) 
@@ -100,7 +97,6 @@ def find_gcd(a, b):
     :param b: int
     :return: int, the greatest common divisor of `a` and `b`.
     """
-  # Implement your solution here
     divisor=0
     if a<b:
         for i in range(1,a+1,1):
@@ -112,3 +108,6 @@ def find_gcd(a, b):
                 divisor=i   
             
     return divisor
+
+
+
